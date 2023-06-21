@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+  <section class="header">
+    <nav>
+
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+<section class="course">
+  <h1>Contacts</h1>
+  </section>
+
+  <div class="container">
+    <div class="contact-info">
+      <div class="info-item">
+        <h3>Address</h3>
+        <p>So. Mabuni Brgy Guadalupe San Carlos City Negros Occidental</p>
+      </div>
+      <div class="info-item">
+        <h3>San Carlos City Hospital</h3>
+        <p>0975-181-4187</p>
+      </div>
+      <div class="info-item">
+        <h3>CDRRMO</h3>
+        <p>0917-890-2959</p>
+      </div>
+      <div class="info-item">
+        <h3>PNP</h3>
+        <p>(034) 312-5166</p>
+      </div>
+      <div class="info-item">
+        <h3>BFP</h3>
+        <p>(034) 312-5333</p>
+      </div>
+      <div class="info-item">
+        <h3>Email</h3>
+        <p>ccjecpsusancarlos2121.com</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="copyright">© CRIMINOLOGY CPSU-SAN CARLOS | 2023</p>
+</footer>
+
+<style>
+    
+  .header{
+          font-size: 20px;
+          font-weight: bold;
+          align-items: center;
+          text-align: center;
+          text-decoration: none;
+          color: black;
+          text-transform: uppercase;
+          cursor: pointer;
+      }
+  
+  nav{
+      display: flex;
+      padding: 2% 6%;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  nav img{
+      width: 150px;
+  }
+  .nav-links{
+      flex: 1;
+      text-align: right;
+  }
+  .nav-links ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 8px 12px;
+      position: relative;
+  }
+  .nav-links ul li a{
+      color: maroon;
+      text-decoration: none;
+      font-size: 13px;
+  }
+  .nav-links ul li::after{
+      content: '';
+      width: 0%;
+      height: 2px;
+      background: black;
+      display: block;
+      margin: auto;
+      transition: 0.5s;
+  }
+  .nav-links ul li:hover::after{
+      width: 100%; 
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+      }
+      
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        
+      }
+      
+      .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      
+      .contact-info .info-item {
+        flex: 1 1 300px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .contact-info h3 {
+        margin-top: 20;
+      }
+      
+      .contact-info p {
+        margin: 20px 0;
+      }
+      
+      @media (max-width: 480px) {
+        .contact-info .info-item {
+          flex-basis: 100%;
+        }
+      }
+      footer {
+      position: relative;
+      height: 100px;
+      width: 100%;
+      background-color:#fff;
+  }
+  p.copyright {
+      position: absolute;
+      width: 100%;
+      color: black;
+      line-height: 10px;
+      font-size: 15PX;
+      text-align: center;
+      bottom: 30px;
+  }
+  .course{
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      padding-top: 100px;
+  }
+  h1{
+      font-size: 30px;
+      font-weight: 500;
+      color:maroon;
+  }
+    </style>
+</body>
+</html>
+

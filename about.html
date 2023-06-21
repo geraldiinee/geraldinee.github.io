@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet">
+</head>
+<body>
+  <section class="header">
+    <nav>
+        <div class="nav-links">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="activities.html">ACTIVITIES</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</section>
+<section class="course">
+  <h1>THE INSTRUCTORS OF CRIMINOLOGY </h1>
+
+</section>
+
+<!-------team------>
+  <section class="team-section">
+    <div class="team-member">
+      <img src="images/11.jpg" alt="Head Program">
+      <h3>Raymond Rolin Hilado</h3>
+      <p>Program Head</p>
+    </div>
+    <div class="team-member">
+      <img src="images/12.jpg" alt="instructor">
+      <h3>Angeline Tangga, MSCJ</h3>
+      <p>Instructor</p>
+    </div>
+    <div class="team-member">
+      <img src="images/13.jpg" alt="Team Member 3">
+      <h3>Mel John Casio</h3>
+      <p>Instructor</p>
+    </div>
+    <div class="team-member">
+      <img src="images/14.jpg" alt="Team Member 3">
+      <h3>Richie Rose Ginete, RCrim</h3>
+      <p>Instuctor</p>
+    </div>
+    
+  
+  </section>
+
+  <!-----teach------->
+  <section class="team-section">
+    <div class="team-member">
+      <img src="images/16.jpg" alt="Head Program">
+      <h3>Madelyn Cantiller</h3>
+      <p>Instructor</p>
+    </div>
+    <div class="team-member">
+      <img src="images/17.jpg" alt="instructor">
+      <h3>Ikyr Beatingo, RCrim</h3>
+      <p>Instructor</p>
+    </div>
+    <div class="team-member">
+      <img src="images/be.jpg" alt="Team Member 3">
+      <h3>Maribeth Abundiente, MSCJ</h3>
+      <p>Instructor</p>
+    </div>
+    <div class="team-member">
+      <img src="images/15.jpg" alt="Team Member 3">
+      <h3>Gia Marie Gamosa, RCrim</h3>
+      <p>Instructor</p>
+    </div>
+    
+    
+  </section>
+
+  <section class="course">
+    <h1>Sections</h1>
+    
+
+    <div class="row">
+        <div class="course-col">
+            <h3>First Year</h3>
+            <p>Section A- 23  <br> Section B- 22 </b></p>
+        </div>
+        <div class="course-col">
+            <h3>Second Year</h3>
+            <p>Section A- 23 <br> Section B-22 </br> Section C-22</p>
+        </div>
+        <div class="course-col">
+            <h3>Third Year</h3>
+            <p>Section A- 27 <br> Section B-28 </br> Section C-27</p>
+        </div>
+        <div class="course-col">
+            <h3>Fourth Year</h3>
+            <p>Section A-27 <br> Section B- 27 </br> Section C-24 </p>
+        </div>
+
+    </div>
+</section>
+  <footer>
+    <p class="copyright"> ©CRIMINOLOGY CPSU-SAN CARLOS | 2023</p>
+</footer>
+
+  <style>
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: maroon;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 500;
+    color:maroon;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0,2);
+}
+    .team-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-member {
+  text-align: center;
+  margin: 20px;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.team-member h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.team-member p {
+  margin: 0;
+  font-size: 14px;
+  color: #888;
+}
+footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color:#fff;
+}
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: black;
+    line-height: 10px;
+    font-size: 15PX;
+    text-align: center;
+    bottom: 30px;
+}
+
+  </style>
+</body>
+</html>
